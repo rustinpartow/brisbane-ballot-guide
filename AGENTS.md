@@ -17,3 +17,13 @@ Contest IDs and candidate option indexes are persistence identifiers. Do not ren
 Run `python3 tests/check_content.py` and `node --check assets/app.js`. Start the HTTP preview described in README.md and verify the affected journey, including reload persistence. Check small phone widths, keyboard focus, all filters and source links. Test HTML download as an actual offline file: it must embed CSS, research, data, runtime, notes, selections and order, and remain downloadable again. Check print preview when changing styles.
 
 GitHub Pages deploys the root of main on push. Keep paths relative so the site works under a repository URL. After pushing, verify the deployed revision and actual hosted behavior. Distinguish local checks from live deployment evidence. Publish only the intended website files; never include machine-specific credentials or unrelated projects.
+
+## Reading order and probability checks
+
+Introduce the Quarry and Baylands before using their names as shorthand. The first view emphasizes competitive races and ballot measures; keep all 49 contests reachable through All contests and the category filters. Candidate backgrounds must distinguish public records, organizations’ biographies, campaign claims and unverified gaps. Do not rank candidates based on an individual visitor’s political preferences.
+
+Optional contest `office` and `decision` fields explain powers and tradeoffs. Candidate `evidence` entries have a label, text and source keys. Put material qualifications and independent records there; do not bury all comparisons in forecast justifications. Council backgrounds are also shown in the expanded research profiles, so keep both copies consistent.
+
+Run the probability assertions: each race must total 100% times its seat count. Multi-seat probabilities describe inclusion, not exclusive outcomes. Keep historical forecasts distinct from the date of new background research. Source checks do not calibrate a prediction model.
+
+Print must open all native details temporarily and restore the reader’s disclosure state afterwards. Verify closed profiles and forecast methods actually appear in the PDF.

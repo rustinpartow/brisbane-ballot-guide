@@ -51,11 +51,12 @@
           <div class="eyebrow">November 3, 2026 / San Mateo County</div>
           <h1>Your ballot.<br /><em>A clearer view.</em></h1>
           <p class="intro">
-            Five council candidates, examined beyond their bios. Plus the full
-            ballot, estimated winning chances, and a worksheet to make your own.
+            Understand the local projects first. Then compare candidate records,
+            the competitive races and ballot measures, with sources beside the
+            evidence. Keep your choices and notes in your own worksheet.
           </p>
           <div class="eyebrow">
-            Council research: October 27 · forecasts: October 26, 2026
+            Research expanded October 27 · original forecasts October 26, 2026
           </div>
         </div>
         <div class="landscape" aria-hidden="true">
@@ -121,10 +122,13 @@
       </div>
       <div id="research-content"></div>
       <div id="ballot-table" class="ballot-divider">
-        <div class="eyebrow">The complete comparison worksheet</div>
-        <h2>Continue through the ballot.</h2>
+        <div class="eyebrow">Your worksheet · focus on the decisions first</div>
+        <h2>Compare the choices that need a closer look.</h2>
         <p>
-          Record choices, reorder options, and keep your own reasoning below.
+          The starting view shows competitive candidate races and all measures.
+          Races with an original favorite of 95% or more, plus judicial
+          retentions, are available under All contests. “Expected winner” does
+          not mean “recommended candidate.”
         </p>
       </div>
       <nav class="toolbar" aria-label="Filter contests">
@@ -135,11 +139,18 @@
           aria-label="Search contests or candidates"
           placeholder="Find a candidate or issue…"
         /><select id="view" aria-label="View mode">
-          <option value="all">All contests</option>
+          <option value="focus" selected>
+            Focus: competitive races &amp; measures
+          </option>
+          <option value="all">All contests, including likely outcomes</option>
           <option value="close">Competitive candidate races</option>
           <option value="chosen">My recorded choices</option>
         </select>
       </nav>
+      <div class="view-status">
+        <span id="shown-count" role="status"></span
+        ><button class="btn" id="show-all">Show all 49 contests</button>
+      </div>
       <div id="guide" aria-live="polite"><p>Loading ballot guide…</p></div>
       <noscript
         ><p>
@@ -231,7 +242,9 @@
             <strong>Sharing:</strong> Download HTML to save an offline copy with
             your current order, selections and notes. You can send that file
             yourself. Notes are stored in this browser, not synchronized between
-            people. Print / PDF uses your browser’s print dialog.
+            people. Print / PDF uses your browser’s print dialog and includes
+            the research plus the contests currently shown. Choose All contests
+            for the complete worksheet.
           </p>
         </article>
       </section>
@@ -240,9 +253,9 @@
           >Brisbane · November 2026 ballot guide<br />Independent comparison &
           forecast worksheet. Not an official ballot.</span
         ><span
-          >Council sources checked October 27; other sources October 26 ·
-          Forecasts are not live<br />No personal political profile is
-          used.</span
+          >Council and competitive-race research expanded October 27; other
+          research October 26 · Forecasts are not live<br />No personal
+          political profile is used.</span
         >
       </footer>
     </main>

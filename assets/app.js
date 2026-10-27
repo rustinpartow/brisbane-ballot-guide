@@ -26,7 +26,7 @@
   } catch {}
   let active = "All",
     query = "",
-    view = "all";
+    view = "focus";
   const esc = (s) =>
     String(s ?? "").replace(
       /[&<>"']/g,
@@ -64,13 +64,44 @@
     return `<a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])} ↗</a>`;
   }
   function matches(r) {
-    if (active === "Local" && !["Local", "Local measures"].includes(r.group))
+    if (
+      active === "Local" &&
+      !["Local", "Local measures", "Regional / school measures"].includes(
+        r.group,
+      )
+    )
       return false;
-    if (active === "State & federal" && !["State", "Federal"].includes(r.group))
+    if (
+      active === "State & federal" &&
+      !["State", "Federal", "State propositions"].includes(r.group)
+    )
       return false;
     if (active === "Measures" && r.kind !== "measure") return false;
     if (active === "Judicial" && r.group !== "Judicial") return false;
-    if (query && !JSON.stringify(r).toLowerCase().includes(query)) return false;
+    const searchable = [
+      r.title,
+      r.scope,
+      r.method,
+      r.office,
+      r.decision,
+      ...r.options.flatMap((o) => [
+        o.name,
+        o.description,
+        o.why,
+        ...(o.evidence || []).map((e) => e.text),
+      ]),
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    if (query && !searchable.includes(query)) return false;
+    if (
+      view === "focus" &&
+      (r.group === "Judicial" ||
+        (r.kind === "race" &&
+          Math.max(...r.options.map((o) => o.prob || 0)) >= 95))
+    )
+      return false;
     if (
       view === "close" &&
       (r.kind !== "race" ||
@@ -114,11 +145,11 @@
         html += `<div class="section-title"><h2>${esc(last)}</h2><span>${r.group === "Judicial" ? "Each justice is a separate Yes / No vote" : "One row per contest · scroll sideways for more options"}</span></div><div class="table-head"><span>Contest & context</span><span>Options · estimated win chance in each candidate heading</span></div>`;
       }
       const s = rs(r);
-      html += `<section class="contest" id="${r.id}" aria-label="${esc(r.title)}"><div class="contest-heading"><div class="eyebrow">${r.kind === "measure" ? "Ballot measure" : r.group === "Judicial" ? "Retention vote" : "Candidate election"}</div><h3>${esc(r.title)}</h3><span class="badge">${r.kind === "measure" ? esc(r.threshold) + " approval" : "Choose up to " + r.seats}</span><span class="badge ${["Very low", "Prior only", "Low"].includes(r.confidence) ? "low" : ""}">${esc(r.confidence)}${r.kind === "race" ? " evidence / confidence" : ""}</span><span class="scope">${esc(r.scope)}</span><details><summary>${r.kind === "measure" ? "Terms & tradeoffs" : "Forecast method"}</summary><p>${esc(r.method)}</p></details><div class="source-links">${r.sources.map(link).join("")}</div></div><div class="option-scroll" aria-label="Options">`;
+      html += `<section class="contest" id="${r.id}" aria-label="${esc(r.title)}">${r.office ? `<div class="contest-overview"><h2>${esc(r.title)}</h2><h3>${r.kind === "measure" ? "What changes" : "What this office does"}</h3><p>${esc(r.office)}</p><h3>${r.kind === "measure" ? "The tradeoff to weigh" : "The decision worth understanding"}</h3><p>${esc(r.decision)}</p><div class="source-links">${(r.contextSources || []).map(link).join("")}</div>${r.seats > 1 ? `<p class="probability-explainer"><strong>${r.seats} seats, ${r.options.length} candidates.</strong> Each percentage is the chance of taking a seat. ${r.options.map((o) => o.prob + "%").join(" + ")} = ${r.seats * 100}%, because there are ${r.seats} winners. These overlapping chances are not vote shares.</p>` : ""}</div>` : ""}<div class="contest-heading"><div class="eyebrow">${r.kind === "measure" ? "Ballot measure" : r.group === "Judicial" ? "Retention vote" : "Candidate election"}</div><h3>${esc(r.title)}</h3><span class="badge">${r.kind === "measure" ? esc(r.threshold) + " approval" : "Choose up to " + r.seats}</span><span class="badge ${["Very low", "Prior only", "Low"].includes(r.confidence) ? "low" : ""}">${esc(r.confidence)}${r.kind === "race" ? " evidence / confidence" : ""}</span><span class="scope">${esc(r.scope)}</span><details><summary>${r.kind === "measure" ? "Terms & tradeoffs" : "Forecast method"}</summary><p>${esc(r.method)}</p></details><details class="race-sources"><summary>Sources for this contest</summary><div class="source-links">${r.sources.map(link).join("")}</div></details></div><div class="option-scroll" aria-label="Options">`;
       s.order.forEach((oi, pos) => {
         const o = r.options[oi],
           sel = s.selected.includes(oi);
-        html += `<article class="option-card ${sel ? "chosen" : ""}"><div class="slot"><span>${s.custom ? "Your order" : "Option"} ${pos + 1}</span><div class="move"><button data-action="move" data-row="${r.id}" data-index="${pos}" data-step="-1" ${pos === 0 ? "disabled" : ""} aria-label="Move ${esc(o.name)} earlier">←</button><button data-action="move" data-row="${r.id}" data-index="${pos}" data-step="1" ${pos === s.order.length - 1 ? "disabled" : ""} aria-label="Move ${esc(o.name)} later">→</button></div></div><div class="candidate"><div><h4>${esc(o.name)}</h4>${o.tag ? `<span class="badge">${esc(o.tag)}</span>` : ""}</div>${o.prob !== null ? `<div class="prob">${o.prob}%<small>EST. WIN CHANCE</small></div>` : ""}</div>${o.prob !== null ? `<div class="prob-bar" aria-hidden="true"><span style="width:${o.prob}%"></span></div>` : ""}<p class="description">${esc(o.description)}</p><div class="why"><strong>${r.kind === "measure" ? "What this means" : "Why these odds"}</strong>${esc(o.why)}</div>${o.range ? `<div class="range">Sensitivity: ${o.range[0]}–${o.range[1]}% · judgment range</div>` : ""}<button class="choose" data-action="choose" data-row="${r.id}" data-option="${oi}" aria-pressed="${sel}">${sel ? "✓ Recorded as my choice" : "＋ Record my choice"}</button></article>`;
+        html += `<article class="option-card ${sel ? "chosen" : ""}"><div class="slot"><span>${s.custom ? "Your order" : "Option"} ${pos + 1}</span><div class="move"><button data-action="move" data-row="${r.id}" data-index="${pos}" data-step="-1" ${pos === 0 ? "disabled" : ""} aria-label="Move ${esc(o.name)} earlier">←</button><button data-action="move" data-row="${r.id}" data-index="${pos}" data-step="1" ${pos === s.order.length - 1 ? "disabled" : ""} aria-label="Move ${esc(o.name)} later">→</button></div></div><div class="candidate"><div><h4>${esc(o.name)}</h4>${o.tag ? `<span class="badge">${esc(o.tag)}</span>` : ""}</div>${o.prob !== null ? `<div class="prob">${o.prob}%<small>EST. WIN CHANCE</small></div>` : ""}</div>${o.prob !== null ? `<div class="prob-bar" aria-hidden="true"><span style="width:${o.prob}%"></span></div>` : ""}<p class="description">${esc(o.description)}</p>${o.evidence && r.id !== "council" ? `<div class="candidate-evidence">${o.evidence.map((e) => `<section><h5>${esc(e.label)}</h5><p>${esc(e.text)}</p>${e.sources.length ? `<div class="source-links">${e.sources.map(link).join("")}</div>` : ""}</section>`).join("")}</div>` : ""}<div class="why"><strong>${r.kind === "measure" ? "What this means" : "Why these odds"}</strong>${esc(o.why)}</div>${o.range ? `<div class="range">Sensitivity: ${o.range[0]}–${o.range[1]}% · judgment range</div>` : ""}<button class="choose" data-action="choose" data-row="${r.id}" data-option="${oi}" aria-pressed="${sel}">${sel ? "✓ Recorded as my choice" : "＋ Record my choice"}</button></article>`;
       });
       html += `</div><div class="worksheet"><label class="sr-only" for="note-${r.id}">My reasoning for ${esc(r.title)}</label><textarea id="note-${r.id}" data-note="${r.id}" placeholder="My reasoning / what I still want to check…">${esc(s.note)}</textarea></div></section>`;
     }
@@ -140,6 +171,9 @@
           .focus({ preventScroll: true });
     }
     document.getElementById("count").textContent = DATA.rows.length;
+    document.getElementById("shown-count").textContent =
+      `${shown} of ${DATA.rows.length} contests shown`;
+    document.getElementById("view").value = view;
     save();
   }
   function toast(msg) {
@@ -153,6 +187,7 @@
     if (!b) return;
     if (b.dataset.filter) {
       active = b.dataset.filter;
+      if (view === "focus") view = "all";
       render();
       return;
     }
@@ -204,6 +239,23 @@
       render();
     }
   };
+  document.getElementById("show-all").onclick = () => {
+    active = "All";
+    view = "all";
+    query = "";
+    document.getElementById("search").value = "";
+    render();
+    document.getElementById("ballot-table").scrollIntoView();
+  };
+  let printDisclosures = [];
+  window.addEventListener("beforeprint", () => {
+    printDisclosures = [...document.querySelectorAll("details:not([open])")];
+    printDisclosures.forEach((e) => (e.open = true));
+  });
+  window.addEventListener("afterprint", () => {
+    printDisclosures.forEach((e) => (e.open = false));
+    printDisclosures = [];
+  });
   document.getElementById("print").onclick = () => window.print();
   document.getElementById("download").onclick = async () => {
     const button = document.getElementById("download");

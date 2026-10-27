@@ -44,3 +44,5 @@ git push origin main
 ```
 
 Wait for the Pages deployment to finish, then check the live guide and its download. Keep local screenshots, exported worksheets and preview logs out of Git.
+
+The starting view shows six competitive candidate races and 22 measures. Category filters and “Show all 49 contests” retain access to the full original ballot. New candidate evidence is stored in each option’s `evidence` list; contest `office`, `decision` and `contextSources` fields provide plain-language introductions. The historical probability values are distinct from the newer research-check dates. See `docs/research-review-2026-10-27.md` for scope and remaining gaps.

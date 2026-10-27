@@ -11,7 +11,24 @@
           "prob": 75,
           "why": "Incumbency and first-place finish in 2022 are the strongest verified electoral signals in this field. Five candidates compete for two seats, so she is favored rather than assured.",
           "range": [55, 90],
-          "tag": "Incumbent"
+          "tag": "Incumbent",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "The city biography records council service since 2015, prior Parks & Recreation Commission service and two years as mayor. It also lists Chamber president/CEO and ownership of Furnish, a staging/interior-design business.",
+              "sources": ["davis_city", "council_audit"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Her experience is directly in city government. The city’s audit update documents overdue financial reports and internal-control weaknesses during her tenure; those are collective oversight issues, not proof of personal wrongdoing.",
+              "sources": ["davis_city", "council_audit"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "A city-hosted biography confirms listed roles; it is not an independent evaluation of performance. See the detailed profile above for the housing-compliance letter, recusal and campaign proposals.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Julie Sims",
@@ -19,7 +36,24 @@
           "prob": 60,
           "why": "Five-plus years of commission service and campaign-listed backing from councilmembers Frank Kern and Coleen Mackin support an organization advantage among challengers.",
           "range": [35, 80],
-          "tag": "Commissioner"
+          "tag": "Commissioner",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "City records confirm appointment to Parks & Recreation in February 2021 and reappointment in February 2025. YouthPoint Health describes reporting for the Half Moon Bay Review, district-office work for Quentin Kopp, communications leadership at Robert Half and a 2017 move to Room to Read. Fortitude Careers independently lists her on its board.",
+              "sources": ["sims_city", "sims_youth", "sims_fortitude"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "This establishes a broader communications and nonprofit career, plus sustained city-commission service. Her commission assignments cover parks concerts, habitat restoration, public art, recreation, seniors and youth.",
+              "sources": ["sims_city", "sims_youth", "sims_fortitude"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "Commission and nonprofit service are relevant experience, but do not establish success managing a city budget. The reviewed sources do not provide an audited record of her individual program outcomes.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Christopher Hornick",
@@ -27,7 +61,24 @@
           "prob": 30,
           "why": "A development-focused platform establishes a serious candidacy. The expanded forum review adds accountability proposals, but supplies no new polling or vote-intention evidence; this remains a weak prior.",
           "range": [15, 60],
-          "tag": "Challenger"
+          "tag": "Challenger",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "His public disclosure identifies interests in HBS Consulting and HBSC Strategic Services. HBSC’s management page describes him as founder, an adviser to executives and an interim CFO/COO/CIO, with Rutgers, computer-science graduate and Columbia MBA credentials.",
+              "sources": ["hornick_filing", "hornick_firm"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "The firm’s account describes finance, operations and technology-transformation experience. It is a more specific professional record than “business leader,” but comes from his own firm.",
+              "sources": ["hornick_filing", "hornick_firm"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "The filing corroborates business ties, not client results or academic degrees. No municipal executive track record or independent audit of those claimed business outcomes was established.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Charles Spencer",
@@ -35,7 +86,24 @@
           "prob": 20,
           "why": "Financial credentials and an active campaign establish a plausible challenger. The reviewed evidence does not establish an electoral advantage over Davis or Sims; this is a weak prior.",
           "range": [10, 50],
-          "tag": "Challenger"
+          "tag": "Challenger",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "His filed candidate statement describes a small-business owner and former nonprofit CFO. The wider search did not establish the nonprofit employer, duration or audited outcomes of that CFO role.",
+              "sources": ["spencer_statement"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Fiscal scrutiny and transparency are campaign priorities. A CFO title is potentially relevant, but the underlying institution and responsibilities need verification before it can be treated as evidence of delivery.",
+              "sources": ["spencer_statement"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "People with the same name in other countries and industries were excluded. Lack of corroboration here is an unresolved research gap, not proof that the claim is false.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Chaya-Bella David",
@@ -43,7 +111,24 @@
           "prob": 15,
           "why": "Finished fifth of five in the three-seat 2024 race with 615 candidate votes. That is a demonstrated base, but below the 995 votes of the last winner; the 2026 field is different.",
           "range": [5, 35],
-          "tag": "Returning candidate"
+          "tag": "Returning candidate",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "The city’s 2019 volunteer-recognition page names Chaya-Bella David. Her filed statement describes community volunteering; the reviewed 2024 election record shows a previous council run.",
+              "sources": ["david_award", "past24"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "The public evidence establishes civic participation. It does not establish a record administering municipal budgets or approving major land-use projects.",
+              "sources": ["david_award", "past24"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "No independently corroborated degree or detailed employment history was established in this review. Sparse evidence should not be turned into either a personal attack or a conclusion about her ability.",
+              "sources": []
+            }
+          ]
         }
       ],
       "seats": 2,
@@ -55,11 +140,24 @@
         "sims",
         "council_record",
         "council_moratorium",
-        "council_audit"
+        "council_audit",
+        "davis_city",
+        "sims_city",
+        "sims_youth",
+        "sims_fortitude",
+        "hornick_filing",
+        "hornick_firm",
+        "roster",
+        "david_award",
+        "spencer_statement"
       ],
       "scope": "Brisbane",
       "confidence": "Very low",
-      "kind": "race"
+      "kind": "race",
+      "office": "Two seats on the city’s governing council. Council sets local policy and budgets and decides land-use applications; staff implement those decisions.",
+      "decision": "Read the project explanations and candidate backgrounds above. Compare specific decisions, public records and conflicts of interest, rather than treating an endorsement or a win forecast as a recommendation.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["city", "council_audit"]
     },
     {
       "id": "supervisor",
@@ -72,7 +170,24 @@
           "prob": 55,
           "why": "Campaign lists support from three sitting county supervisors and several unions and media organizations. This earns only a small edge against another established local officeholder.",
           "range": [35, 75],
-          "tag": ""
+          "tag": "",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "South San Francisco councilmember, elected in 2018 and mayor in 2022, according to Bay Area News Group reporting.",
+              "sources": ["county_reporting"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Supports an Article 34 authorization approach to public low-income housing and stronger tenant protections; says he will pursue recovery of missing state vehicle-license-fee revenue.",
+              "sources": ["county_reporting"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "The article corroborates officeholding and reports proposals. It is not a causal audit of housing outcomes or a district-wide poll.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Juslyn Cabrera Manalo",
@@ -80,15 +195,36 @@
           "prob": 45,
           "why": "Strong elected-office record and a citywide Daly City base keep this close. She won 23,477 candidate votes in 2024; citywide and ward totals are not directly comparable.",
           "range": [25, 65],
-          "tag": ""
+          "tag": "",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "Daly City councilmember first elected in 2016, with mayoral terms in 2018, 2021 and 2024, according to Bay Area News Group.",
+              "sources": ["county_reporting"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Points to Midway Village housing work; proposes using county land and outside funding for affordable housing and state relationships to recover missing revenue.",
+              "sources": ["county_reporting"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "The record and proposals deserve comparison, but project-level credit and future funding are not guaranteed.",
+              "sources": []
+            }
+          ]
         }
       ],
       "seats": 1,
-      "method": "Subjective 55–45 assessment from officeholding, prior results and campaign-reported endorsements. No district-wide poll or campaign-finance audit was available in this review.",
-      "sources": ["roster", "nagales", "manalo", "past24"],
+      "method": "Subjective 55–45 assessment from officeholding, prior results and campaign-reported endorsements. No district-wide poll or campaign-finance audit was available in this review. October 13–14 independent reporting adds records and financing context, but does not validate the 55–45 split.",
+      "sources": ["roster", "nagales", "manalo", "past24", "county_reporting"],
       "scope": "Brisbane",
       "confidence": "Very low",
-      "kind": "race"
+      "kind": "race",
+      "office": "One seat representing northern San Mateo County. County decisions affect health and social services, housing resources and the budget; they are separate from Brisbane City Council decisions.",
+      "decision": "Both candidates have municipal experience. Compare housing implementation and the response to missing state vehicle-license-fee revenue. Their citywide and district election totals are not comparable measures of countywide support.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["county_reporting"]
     },
     {
       "id": "school",
@@ -101,7 +237,24 @@
           "prob": 80,
           "why": "An incumbency-only prior favors existing officeholders. No candidate-specific polling or comparative performance evaluation was found.",
           "range": [55, 95],
-          "tag": "Incumbent"
+          "tag": "Incumbent",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "The school district’s own roster identifies Duffy as current board president with a term ending December 2026.",
+              "sources": ["school_board", "school_kqed"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "That is direct governing experience. KQED received no policy questionnaire response from her.",
+              "sources": ["school_board", "school_kqed"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "Her broader professional qualifications and individual votes on budgets, contracts and student outcomes were not established by the reviewed roster.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Morgan Finlay",
@@ -109,7 +262,24 @@
           "prob": 80,
           "why": "Incumbency provides a modest name-recognition prior; appointment is not proof of electoral support.",
           "range": [55, 95],
-          "tag": "Appointed incumbent"
+          "tag": "Appointed incumbent",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "The district’s roster identifies Finlay as a current trustee with a December 2026 term end. KQED identifies an appointed incumbent.",
+              "sources": ["school_board", "school_kqed"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Current board service is verified. KQED received no policy questionnaire response.",
+              "sources": ["school_board", "school_kqed"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "Appointment is not evidence of electoral support. The district profile did not supply a career biography or a comparative performance record.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Charlene Larson",
@@ -117,7 +287,24 @@
           "prob": 70,
           "why": "Three seats for four candidates creates a high baseline chance. With no better electoral data, this estimate gives newcomers equal strength.",
           "range": [40, 90],
-          "tag": ""
+          "tag": "",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "The candidate roster and KQED list Larson as a retired federal employee. That designation does not identify an agency, job or years of service.",
+              "sources": ["roster", "school_kqed"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "KQED received no policy questionnaire response from Larson.",
+              "sources": ["roster", "school_kqed"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "No independently verified detailed federal-employment history or comparative school-governance record was established. The absence of a questionnaire response does not imply any particular policy position.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Emily Wirowek",
@@ -125,15 +312,36 @@
           "prob": 70,
           "why": "Same newcomer prior as Larson. This forecast does not evaluate qualifications or imply a preference between them.",
           "range": [40, 90],
-          "tag": ""
+          "tag": "",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "The State Bar lists Emily Amber Wirowek, license 264993, as active, with Wirowek Law Group in Brisbane. This independently verifies the attorney credential.",
+              "sources": ["wirowek_bar", "school_kqed"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "KQED reports support for classroom-phone restrictions, school resource officers and new charter schools; opposition to school closures and to the proposed teacher-misconduct database. These are candidate responses, not voting records.",
+              "sources": ["wirowek_bar", "school_kqed"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "An active law license does not establish education-policy expertise or an education-results record. Her questionnaire offers more policy detail than the other responses received, not proof she is more qualified.",
+              "sources": []
+            }
+          ]
         }
       ],
       "seats": 3,
-      "method": "Three-seat Plackett–Luce prior: incumbent weights 1.4 each, newcomer weights 1 each. Inclusion probabilities 81/81/69/69, coarsened to 80/80/70/70. No polling; no school-policy recommendation.",
-      "sources": ["roster"],
+      "method": "Three-seat Plackett–Luce prior: incumbent weights 1.4 each, newcomer weights 1 each. Inclusion probabilities 81/81/69/69, coarsened to 80/80/70/70. No polling; no school-policy recommendation. Arithmetic audit: 80 + 80 + 70 + 70 = 300%, equal to three seats × 100%. These are overlapping chances of inclusion, not mutually exclusive outcomes. Four identical 80% chances would total 320% and would be inconsistent here.",
+      "sources": ["roster", "school_board", "school_kqed", "wirowek_bar"],
       "scope": "Confirm school district",
       "confidence": "Very low",
-      "kind": "race"
+      "kind": "race",
+      "office": "Choose up to three of four candidates, if you live in this school district. The board oversees the superintendent, school budget, facilities and labor contracts.",
+      "decision": "Compare stewardship of the district with concrete positions on school closures, classroom phones and charter schools. KQED received policy responses from Wirowek but not the other three; nonresponse is a gap, not a position.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["school_board", "school_kqed"]
     },
     {
       "id": "house",
@@ -378,7 +586,24 @@
           "prob": 60,
           "why": "Probolsky’s Oct 26 release reports Allen 25%, Kim 21%, with 54% unsure. The small lead warrants a modest edge, heavily discounted for undecided voters and conflicting earlier signals.",
           "range": [40, 80],
-          "tag": "D"
+          "tag": "D",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "State senator since 2014. Independent reporting identifies recently signed legislation on insurance enforcement, home hardening and nonrenewal notice.",
+              "sources": ["insurance_reporting", "insurance_money"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Favors improving the private market and wildfire resilience. CalMatters reports industry-linked outside spending supporting him; he said he did not seek or welcome it.",
+              "sources": ["insurance_reporting", "insurance_money"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "Outside spending is separate from direct campaign donations. The article does not establish illegal coordination or regulatory capture.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Jane Kim",
@@ -386,15 +611,41 @@
           "prob": 40,
           "why": "The same poll leaves most voters undecided, so this is still competitive. A four-point stated-preference deficit is not a 60–40 vote-share forecast.",
           "range": [20, 60],
-          "tag": "D"
+          "tag": "D",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "Former San Francisco supervisor; later worked for the Working Families Party. Independent reporting identifies tenant, wage and community-college policy work.",
+              "sources": ["insurance_reporting", "insurance_money"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Proposes a publicly administered disaster-insurance layer. CalMatters reports outside support from the Working Families Party, her former employer.",
+              "sources": ["insurance_reporting", "insurance_money"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "A public-insurance proposal is not an enacted or fully costed program. Funding, coverage and exposure to catastrophic losses remain central implementation questions.",
+              "sources": []
+            }
+          ]
         }
       ],
       "seats": 1,
       "method": "Subjective 60–40 win forecast from the latest verified public poll; undecided voters and poll uncertainty dominate. No full multi-poll model was fitted.",
-      "sources": ["roster", "inspoll"],
+      "sources": [
+        "roster",
+        "inspoll",
+        "insurance_reporting",
+        "insurance_money"
+      ],
       "scope": "Brisbane",
       "confidence": "Low",
-      "kind": "race"
+      "kind": "race",
+      "office": "The commissioner regulates property and casualty insurance rates and investigates insurer practices. This affects home, renter and auto coverage as well as wildfire recovery.",
+      "decision": "The central choice is between stabilizing and enforcing the private-insurance system and creating a public disaster-insurance layer. Compare implementation, affordability and who ultimately bears catastrophic losses.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["insurance_reporting"]
     },
     {
       "id": "boe",
@@ -405,25 +656,71 @@
           "name": "Sally J. Lieber",
           "description": "Democrat; incumbent board member.",
           "prob": 60,
-          "why": "Incumbency provides a modest prior against another Democrat. No general-election poll, fundraising comparison or full district analysis was verified.",
+          "why": "Original 60% judgment estimate retained. San Francisco’s certified June primary gave Lieber 71.59% and Pimentel 14.23%, but this is only one part of the district and a multi-candidate primary. It cannot be converted directly into a November win probability.",
           "range": [35, 80],
-          "tag": "D · incumbent"
+          "tag": "D · incumbent",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "The BOE biography records Mountain View council and mayoral service, election to the Assembly in 2002 and election to the BOE in 2022.",
+              "sources": ["lieber_bio", "boe_reporting"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Supports keeping the board as an elected forum for taxpayers; CalMatters reports her defense of its current role after the 2017 removal of many functions.",
+              "sources": ["lieber_bio", "boe_reporting"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "A long legislative résumé is not itself evidence of accurate tax administration. No current head-to-head poll or comparative service-quality audit was verified.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "John Pimentel",
           "description": "Democrat; community-college district trustee.",
           "prob": 40,
-          "why": "An established officeholder in a same-party contest can plausibly win. There is too little reviewed evidence to justify a strong favorite.",
+          "why": "Original complementary 40% estimate retained. The verified San Francisco primary result is not district-wide or a head-to-head poll. New background evidence does not justify pretending the original estimate is calibrated.",
           "range": [20, 65],
-          "tag": "D"
+          "tag": "D",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "The college district’s historical biography records renewable-energy businesses, Bain consulting, 1990s state transportation work and election to its board in 2020. It lists Berkeley and Harvard Business School education.",
+              "sources": ["pimentel_bio", "boe_debate", "pimentel_position"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Argues for reform; the pro-Pimentel GrowSF endorsement specifically supports his willingness to eliminate the office. Read it as advocacy, alongside the BOE’s own account of its duties.",
+              "sources": ["pimentel_bio", "boe_debate", "pimentel_position"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "The district biography is historical and says its term expires in 2024; it does not alone verify current officeholding. Business outcomes in a biography are not an independent audit, and abolition requires action beyond one member.",
+              "sources": []
+            }
+          ]
         }
       ],
       "seats": 1,
-      "method": "Incumbency-only judgment prior in a same-party race. Evidence is especially limited.",
-      "sources": ["roster"],
+      "method": "Incumbency-only judgment prior in a same-party race. Evidence is especially limited. Background research expanded October 27; no newly verified general-election poll supports recalibrating these numbers.",
+      "sources": [
+        "roster",
+        "lieber_bio",
+        "boe_reporting",
+        "pimentel_bio",
+        "boe_debate",
+        "pimentel_position",
+        "boe_sf_primary"
+      ],
       "scope": "Brisbane",
       "confidence": "Very low",
-      "kind": "race"
+      "kind": "race",
+      "office": "The Board of Equalization oversees county property-assessment practices and directly values certain utility and railroad property. It is not the Legislature and does not set everyone’s tax rate.",
+      "decision": "Compare maintaining an elected taxpayer forum with restructuring or abolishing the board. A member cannot abolish this constitutionally created office alone. The dispute is about tax administration and institutional design, not a broad mandate to rewrite tax law.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["boe_duties", "boe_reporting"]
     },
     {
       "id": "spi",
@@ -436,7 +733,24 @@
           "prob": 90,
           "why": "A broad Democratic-aligned statewide prior favors Barrera, but this is a nonpartisan ballot and no current head-to-head poll was verified. Consequently the upset tail is larger.",
           "range": [70, 98],
-          "tag": ""
+          "tag": "",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "CalMatters identifies Barrera as San Diego Unified board president.",
+              "sources": ["spi_reporting"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Emphasizes school funding, early-childhood education and teacher recruitment.",
+              "sources": ["spi_reporting"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "The retained 90% estimate is a political-alignment prior, not a measured assessment of either candidate’s school performance.",
+              "sources": []
+            }
+          ]
         },
         {
           "name": "Sonja Shaw",
@@ -444,15 +758,36 @@
           "prob": 10,
           "why": "A credible upset tail remains in a lower-information nonpartisan contest. This estimate is prior-driven, not measured voter support.",
           "range": [2, 30],
-          "tag": ""
+          "tag": "",
+          "evidence": [
+            {
+              "label": "Background & qualifications",
+              "text": "CalMatters identifies Shaw as Chino Valley board president.",
+              "sources": ["spi_reporting"]
+            },
+            {
+              "label": "Record & policy difference",
+              "text": "Her record includes opposition to transgender-student protections; she emphasizes academic basics and parental authority.",
+              "sources": ["spi_reporting"]
+            },
+            {
+              "label": "What remains uncertain",
+              "text": "The office’s reduced 2027 powers limit what either candidate can implement directly.",
+              "sources": []
+            }
+          ]
         }
       ],
       "seats": 1,
       "method": "Low-confidence political-alignment prior, not a candidate-performance evaluation or a race-specific poll.",
-      "sources": ["roster", "ca22"],
+      "sources": ["roster", "ca22", "spi_reporting"],
       "scope": "Brisbane",
       "confidence": "Very low",
-      "kind": "race"
+      "kind": "race",
+      "office": "A statewide education office with limited control over local districts. CalMatters reports that a 2027 restructuring transfers many duties to a governor-appointed education commissioner and the state school board.",
+      "decision": "Compare the candidates’ school-board records and education priorities, while recognizing that campaign promises may exceed the office’s new powers.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["spi_reporting"]
     },
     {
       "id": "x",
@@ -464,7 +799,7 @@
       "confidence": "Official text",
       "method": "Estimated $1M additional annual general-fund revenue; removes specified exemptions including nonprofits and rentals under five units. Separate industry taxes remain.",
       "threshold": "Majority",
-      "sources": ["city", "county"],
+      "sources": ["city", "county", "measure_x_analysis"],
       "options": [
         {
           "name": "Yes",
@@ -482,7 +817,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Replace most of Brisbane’s tiered business-license taxes with a gross-receipts formula and remove specified exemptions. The city attorney describes this as a general tax: revenue is available for general city services, not a guaranteed dedicated program.",
+      "decision": "Weigh the city’s estimated $1 million in extra annual revenue against who pays more, including nonprofits and small rental operations losing exemptions. A business’s operating costs can be used as the tax base; this is not a tax on profit.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["measure_x_analysis"]
     },
     {
       "id": "j",
@@ -704,7 +1043,7 @@
       "confidence": "Official text",
       "method": "Estimated debt service: $500M–$600M annually for about 25 years.",
       "threshold": "Majority",
-      "sources": ["prop1"],
+      "sources": ["prop1", "analysis1"],
       "options": [
         {
           "name": "Yes",
@@ -722,7 +1061,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Authorize $11.25 billion in housing bonds: $10 billion for housing programs and $1.25 billion for veteran home loans. The legislative analyst estimates $500–600 million in annual General Fund repayment for about 25 years on the housing-program bonds.",
+      "decision": "Weigh subsidized housing delivered sooner against long-term repayment and the opportunity cost for other public services.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis1"]
     },
     {
       "id": "prop2",
@@ -734,7 +1077,7 @@
       "confidence": "Official text",
       "method": "Changes reserve capacity and extends required extra debt payments; also changes how reserves interact with the spending limit.",
       "threshold": "Majority",
-      "sources": ["prop2"],
+      "sources": ["prop2", "analysis2"],
       "options": [
         {
           "name": "Yes",
@@ -752,7 +1095,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Change state reserve and extra-debt-payment rules. The legislative analyst expects higher reserves and potentially more debt payments, which can help when revenues fall.",
+      "decision": "Weigh protection against future budget downturns against less money available for services in high-revenue years.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis2"]
     },
     {
       "id": "prop3",
@@ -764,7 +1111,7 @@
       "confidence": "Official text",
       "method": "Official estimate: maintain $5B–$15B in annual state income-tax revenue. Not a new tax on all earners.",
       "threshold": "Majority",
-      "sources": ["prop3"],
+      "sources": ["prop3", "analysis3"],
       "options": [
         {
           "name": "Yes",
@@ -782,7 +1129,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Make the existing higher income-tax rates on high earners permanent instead of allowing them to expire in 2031. The analyst estimates annual revenue of roughly $5–15 billion, varying substantially with the economy and stock market.",
+      "decision": "Weigh continued program funding against permanently extending the tax. Do not confuse this income tax with Proposition 40’s one-time wealth tax.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis3"]
     },
     {
       "id": "prop4",
@@ -794,7 +1145,7 @@
       "confidence": "Official text",
       "method": "Permits programs rather than creating one universal program. Certain earmarked funds cannot be used.",
       "threshold": "Majority",
-      "sources": ["prop4"],
+      "sources": ["prop4", "analysis4"],
       "options": [
         {
           "name": "Yes",
@@ -812,7 +1163,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Allow state and local governments to create public campaign-financing programs. This measure does not itself create or fund one. Costs depend on later choices; state guidance costs are expected to be relatively small.",
+      "decision": "Weigh the option of publicly financing campaigns against taxpayer costs and the design of safeguards. A Yes vote does not automatically give money to candidates.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis4"]
     },
     {
       "id": "prop5",
@@ -824,7 +1179,7 @@
       "confidence": "Official text",
       "method": "Changes how a recalled officer is replaced. Net election costs depend on the particular recall.",
       "threshold": "Majority",
-      "sources": ["prop5"],
+      "sources": ["prop5", "analysis5"],
       "options": [
         {
           "name": "Yes",
@@ -842,7 +1197,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Remove the replacement-candidate question from recall ballots. Vacancies would instead be filled under rules involving appointments or special elections, depending on the office and timing. Election costs could rise or fall.",
+      "decision": "Weigh the replacement process and democratic accountability, including who appoints a successor and when voters get another election.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis5"]
     },
     {
       "id": "prop37",
@@ -854,7 +1213,7 @@
       "confidence": "Official text",
       "method": "Eligible new homes and borrowers face price, income, occupancy and downpayment rules. Official summary estimates no direct state or local cost.",
       "threshold": "Majority",
-      "sources": ["prop37"],
+      "sources": ["prop37", "analysis37"],
       "options": [
         {
           "name": "Yes",
@@ -872,7 +1231,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Create a new homebuying-assistance program using up to $25 billion in revenue bonds repaid by participating homeowners. The analyst identifies uncertainty about investor demand, loan pricing and how much new building would result.",
+      "decision": "Weigh access to purchase financing against borrower costs and uncertain housing-supply effects. These are loans, not free down payments.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis37"]
     },
     {
       "id": "prop38",
@@ -884,7 +1247,7 @@
       "confidence": "Official text",
       "method": "Half goes to a specified UC-affiliated nonprofit institute. Estimated debt cost $500M–$600M annually for about 20 years, potentially offset by research revenue.",
       "threshold": "Majority",
-      "sources": ["prop38"],
+      "sources": ["prop38", "analysis38"],
       "options": [
         {
           "name": "Yes",
@@ -902,7 +1265,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Borrow $8.4 billion for immunology and immunotherapy research. The analyst estimates annual General Fund repayment of $500–600 million for about 20 years; commercial discoveries could yield uncertain future revenue.",
+      "decision": "Weigh potential research benefits against borrowing costs and the possibility that medical or financial returns take decades or do not materialize.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis38"]
     },
     {
       "id": "prop39",
@@ -914,7 +1281,7 @@
       "confidence": "Official text",
       "method": "Official annual implementation-cost estimate ranges from tens of millions to low hundreds of millions. Changes the requirements for a ballot to count.",
       "threshold": "Majority",
-      "sources": ["prop39"],
+      "sources": ["prop39", "analysis39"],
       "options": [
         {
           "name": "Yes",
@@ -932,7 +1299,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Require additional government-issued identification for voting, replacing reliance on signature-based identification alone. The analyst estimates tens of millions to low hundreds of millions of dollars in additional annual costs, depending on implementation.",
+      "decision": "Weigh the proposed identification requirement against administrative costs and access for eligible voters lacking the required identification.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis39"]
     },
     {
       "id": "prop40",
@@ -944,7 +1315,7 @@
       "confidence": "Official text",
       "method": "Official estimate: temporary revenue in the tens of billions; possible ongoing income-tax revenue reduction below $1B annually. Interacts with Props 41 and 42.",
       "threshold": "Majority",
-      "sources": ["prop40"],
+      "sources": ["prop40", "analysis40"],
       "options": [
         {
           "name": "Yes",
@@ -962,7 +1333,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Impose a one-time 5% wealth tax on covered billionaires, primarily funding health care. The analyst expects temporary revenue in the tens of billions and a possible ongoing income-tax revenue loss below $1 billion annually.",
+      "decision": "Weigh temporary public funding against valuation, administration and taxpayer-response risks. Conflicts with Propositions 41 and 42 could require court resolution.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis40"]
     },
     {
       "id": "prop41",
@@ -974,7 +1349,7 @@
       "confidence": "Official text",
       "method": "Could nullify conflicting taxes enacted after Jan 1, 2026. Net fiscal effect depends on later decisions; read alongside Prop 40.",
       "threshold": "Majority",
-      "sources": ["prop41"],
+      "sources": ["prop41", "analysis41"],
       "options": [
         {
           "name": "Yes",
@@ -992,7 +1367,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Add reviews and ongoing audits for programs funded by new special taxes, and restrict exclusion of new special-tax spending from the state spending limit. Audit and ballot-publication costs would rise.",
+      "decision": "Weigh additional review and spending constraints against administrative burdens and reduced flexibility to raise and spend earmarked revenue.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis41"]
     },
     {
       "id": "prop42",
@@ -1004,7 +1383,7 @@
       "confidence": "Official text",
       "method": "Could constrain future revenue and affect Prop 40. Personal property here includes financial assets and other non-real-estate property.",
       "threshold": "Majority",
-      "sources": ["prop42"],
+      "sources": ["prop42", "analysis42"],
       "options": [
         {
           "name": "Yes",
@@ -1022,7 +1401,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Bar new state taxes on ownership of financial assets and other personal property, and certain retroactive taxes. The analyst says future revenue could be lower, with timing and size unknown.",
+      "decision": "Weigh limits on future taxation against keeping revenue options available. A conflict with Proposition 40 could depend on relative Yes votes and court interpretation.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis42"]
     },
     {
       "id": "prop43",
@@ -1034,7 +1417,7 @@
       "confidence": "Official text",
       "method": "Changes which future local taxes can pass; official analysis says future local revenues might rise less.",
       "threshold": "Majority",
-      "sources": ["prop43"],
+      "sources": ["prop43", "analysis43"],
       "options": [
         {
           "name": "Yes",
@@ -1052,7 +1435,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Require two-thirds approval for certain local taxes that can currently pass by majority vote. The analyst expects potentially lower future local revenue; the amount depends on future proposals and votes.",
+      "decision": "Weigh stronger supermajority protection for taxpayers against the ability of local majorities to fund services.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis43"]
     },
     {
       "id": "prop44",
@@ -1064,7 +1451,7 @@
       "confidence": "Official text",
       "method": "Creates penalties and oversight; official state administration costs in the low tens of millions annually would be covered by fees.",
       "threshold": "Majority",
-      "sources": ["prop44"],
+      "sources": ["prop44", "analysis44"],
       "options": [
         {
           "name": "Yes",
@@ -1082,7 +1469,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Require certain private nonprofit safety-net clinics to spend at least 90% of revenue on health-care services. Enforcement fees would fund state oversight; compliance could change services or cause some clinics to close.",
+      "decision": "Weigh a direct-care spending floor against operating flexibility, reporting costs and the uncertain effects on access to care.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis44"]
     },
     {
       "id": "prop45",
@@ -1094,7 +1485,7 @@
       "confidence": "Official text",
       "method": "Tightens deadlines and narrows court review. Initial public costs may exceed $100M annually, partly fee-funded; longer-term fiscal effects are uncertain.",
       "threshold": "Majority",
-      "sources": ["prop45"],
+      "sources": ["prop45", "analysis45"],
       "options": [
         {
           "name": "Yes",
@@ -1112,7 +1503,11 @@
           "range": null,
           "tag": ""
         }
-      ]
+      ],
+      "office": "Create new environmental-review and court-challenge procedures for eligible projects, including tighter time limits and limits on court review. The analyst expects significant initial administrative costs and uncertain longer-term effects.",
+      "decision": "Weigh potentially faster projects and lower project costs against changes to environmental scrutiny and the scope of legal challenges.",
+      "researchChecked": "October 27, 2026",
+      "contextSources": ["analysis45"]
     },
     {
       "id": "judge0",
@@ -1617,8 +2012,157 @@
     "council_audit": [
       "City · audits and ratings, Oct 22",
       "https://www.brisbaneca.gov/m/newsflash/Home/Detail/423"
+    ],
+    "sims_city": [
+      "City directory · Sims appointment and assignments",
+      "https://www.brisbaneca.gov/directory.aspx?EID=97"
+    ],
+    "sims_youth": [
+      "YouthPoint Health · Sims career biography",
+      "https://www.youthpointhealth.org/advisory-boards"
+    ],
+    "sims_fortitude": [
+      "Fortitude Careers · board roster",
+      "https://www.fortitudecareers.org/board-of-directors"
+    ],
+    "davis_city": [
+      "City directory · Davis public-service and professional background",
+      "https://www.brisbaneca.gov/m/directory/employee?eid=106"
+    ],
+    "hornick_firm": [
+      "HBSC · employer biography, not an independent performance audit",
+      "https://www.hbsconsult.com/management/"
+    ],
+    "hornick_filing": [
+      "Hornick · public economic-interest filing",
+      "https://www.brisbaneca.gov/DocumentCenter/View/3385"
+    ],
+    "david_award": [
+      "City · 2019 volunteer recognition",
+      "https://www.brisbaneca.gov/204/Nancy-Lacsamana-Chaya-Bella-David---2019"
+    ],
+    "county_reporting": [
+      "Bay Area News Group · District 5 records and choices, Oct 13–14",
+      "https://www.mercurynews.com/2026/10/13/san-mateo-county-board-of-supervisors-affordable-housing-and-budget-shortfall-important-issues-for-district-5-candidates/"
+    ],
+    "school_board": [
+      "School district · current board roster",
+      "https://www.brisbanesd.org/apps/pages/index.jsp?uREC_ID=2682622&type=d&pREC_ID=2307862"
+    ],
+    "school_kqed": [
+      "KQED · Brisbane school candidate responses",
+      "https://www.kqed.org/voterguide/sanmateo/school#brisbane-school-district-member-governing-board"
+    ],
+    "wirowek_bar": [
+      "State Bar · Wirowek active attorney license",
+      "https://apps.calbar.ca.gov/attorney/Licensee/Detail/264993"
+    ],
+    "insurance_reporting": [
+      "CalMatters · insurance candidates’ records and proposals, Oct 9–13",
+      "https://calmatters.org/economy/2026/10/insurance-commissioner-california-nov-election/"
+    ],
+    "insurance_money": [
+      "CalMatters · insurance campaign money, data Oct 23",
+      "https://calmatters.org/politics/2026/10/insurance-commissioner-campaign-funding/"
+    ],
+    "boe_duties": [
+      "BOE · actual responsibilities",
+      "https://www.boe.ca.gov/info/about.htm"
+    ],
+    "lieber_bio": [
+      "BOE · Lieber official biography",
+      "https://www.boe.ca.gov/lieber/about.htm"
+    ],
+    "boe_reporting": [
+      "CalMatters · why the tax board exists and the candidates’ differences",
+      "https://calmatters.org/politics/2026/05/board-of-equalization-election/"
+    ],
+    "pimentel_bio": [
+      "College district · historical Pimentel biography, term listed through 2024",
+      "https://smccd.edu/boardoftrustees/documents/Pimentel%20Bio.pdf"
+    ],
+    "pimentel_position": [
+      "Pimentel · campaign proposals and claims",
+      "https://johnpimentel.com/"
+    ],
+    "boe_debate": [
+      "GrowSF · pro-Pimentel endorsement and abolition argument",
+      "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/board-of-equalization/"
+    ],
+    "spi_reporting": [
+      "CalMatters · schools candidates and reduced powers starting in 2027",
+      "https://calmatters.org/california-voter-guide-2026/superintendent-of-public-instruction/"
+    ],
+    "analysis1": [
+      "Legislative Analyst · Proposition 1 analysis",
+      "https://voterguide.sos.ca.gov/propositions/1/analysis.htm"
+    ],
+    "analysis2": [
+      "Legislative Analyst · Proposition 2 analysis",
+      "https://voterguide.sos.ca.gov/propositions/2/analysis.htm"
+    ],
+    "analysis3": [
+      "Legislative Analyst · Proposition 3 analysis",
+      "https://voterguide.sos.ca.gov/propositions/3/analysis.htm"
+    ],
+    "analysis4": [
+      "Legislative Analyst · Proposition 4 analysis",
+      "https://voterguide.sos.ca.gov/propositions/4/analysis.htm"
+    ],
+    "analysis5": [
+      "Legislative Analyst · Proposition 5 analysis",
+      "https://voterguide.sos.ca.gov/propositions/5/analysis.htm"
+    ],
+    "analysis37": [
+      "Legislative Analyst · Proposition 37 analysis",
+      "https://voterguide.sos.ca.gov/propositions/37/analysis.htm"
+    ],
+    "analysis38": [
+      "Legislative Analyst · Proposition 38 analysis",
+      "https://voterguide.sos.ca.gov/propositions/38/analysis.htm"
+    ],
+    "analysis39": [
+      "Legislative Analyst · Proposition 39 analysis",
+      "https://voterguide.sos.ca.gov/propositions/39/analysis.htm"
+    ],
+    "analysis40": [
+      "Legislative Analyst · Proposition 40 analysis",
+      "https://voterguide.sos.ca.gov/propositions/40/analysis.htm"
+    ],
+    "analysis41": [
+      "Legislative Analyst · Proposition 41 analysis",
+      "https://voterguide.sos.ca.gov/propositions/41/analysis.htm"
+    ],
+    "analysis42": [
+      "Legislative Analyst · Proposition 42 analysis",
+      "https://voterguide.sos.ca.gov/propositions/42/analysis.htm"
+    ],
+    "analysis43": [
+      "Legislative Analyst · Proposition 43 analysis",
+      "https://voterguide.sos.ca.gov/propositions/43/analysis.htm"
+    ],
+    "analysis44": [
+      "Legislative Analyst · Proposition 44 analysis",
+      "https://voterguide.sos.ca.gov/propositions/44/analysis.htm"
+    ],
+    "analysis45": [
+      "Legislative Analyst · Proposition 45 analysis",
+      "https://voterguide.sos.ca.gov/propositions/45/analysis.htm"
+    ],
+    "measure_x_analysis": [
+      "City attorney · impartial analysis of Measure X",
+      "https://www.brisbaneca.gov/DocumentCenter/View/3407/Impartial-Analysis-for-Measure-X"
+    ],
+    "boe_sf_primary": [
+      "San Francisco · certified June primary results, city only",
+      "https://www.sfelections.org/results/20260602w/index.html"
+    ],
+    "spencer_statement": [
+      "Spencer · filed candidate statement, self-reported credentials",
+      "https://www.brisbaneca.gov/DocumentCenter/View/3388"
     ]
   },
   "updated": "October 26, 2026",
-  "election": "November 3, 2026"
+  "election": "November 3, 2026",
+  "researchUpdated": "October 27, 2026"
 }

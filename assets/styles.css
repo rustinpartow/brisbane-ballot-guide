@@ -1288,7 +1288,7 @@ footer {
     font-size: 16px;
   }
 
-  textarea {
+  .worksheet textarea {
     font-size: 16px;
   }
 
@@ -1355,4 +1355,223 @@ html {
   .choose {
     scroll-margin-block: 16px;
   }
+}
+
+/* Introduce the local decisions before the long supporting records. */
+.issue-primer {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.issue-primer .research-box {
+  background: var(--white);
+  padding: 26px;
+}
+.issue-primer h3 {
+  font-size: 27px;
+  margin-top: 12px;
+}
+.issue-primer p {
+  font-size: 15px;
+  line-height: 1.65;
+}
+.background-notes {
+  margin: 22px 0 32px;
+  border-block: 1px solid var(--line);
+  padding: 8px 0;
+}
+.background-notes > summary {
+  padding: 12px 0;
+  font-size: 14px;
+}
+.background-notes .research-context {
+  margin: 20px 0;
+}
+.candidate-brief {
+  font:
+    13px/1.5 -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: var(--muted);
+  margin: 8px 0 0;
+  max-width: 580px;
+}
+.candidate-background {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+.candidate-background h4,
+.record-subtitle {
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+.candidate-background p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+.record-subtitle {
+  margin: 26px 0 20px;
+}
+.view-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 16px 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+.contest-overview {
+  grid-column: 1/-1;
+  max-width: 920px;
+  padding: 20px 24px;
+  background: #edf0e5;
+  border-left: 3px solid var(--ink);
+}
+.contest-overview h3 {
+  font:
+    600 14px/1.4 -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  margin: 0 0 6px;
+}
+.contest-overview p {
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0 0 16px;
+}
+.contest-overview p:last-child {
+  margin-bottom: 0;
+}
+.probability-explainer {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+.candidate-evidence {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+.candidate-evidence section {
+  margin: 0 0 18px;
+}
+.candidate-evidence h5 {
+  font-size: 13px;
+  margin: 0 0 7px;
+}
+.candidate-evidence p {
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 0;
+}
+.candidate-evidence .source-links {
+  font-size: 12px;
+}
+.race-sources .source-links {
+  display: flex;
+}
+@media screen and (max-width: 900px) {
+  .candidate-background {
+    grid-template-columns: 1fr;
+  }
+  .issue-primer {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .issue-primer .research-box {
+    padding: 20px;
+  }
+  .issue-primer h3 {
+    font-size: 26px;
+  }
+  .candidate-background {
+    gap: 22px;
+  }
+  .contest-overview {
+    margin-bottom: 18px;
+    padding: 18px;
+  }
+  .candidate-brief {
+    font-size: 13px;
+  }
+  .view-status {
+    flex-wrap: wrap;
+  }
+  .contest-heading details {
+    display: block;
+  }
+  .contest-heading summary {
+    min-height: 44px;
+    padding-block: 10px;
+  }
+  .source-links a,
+  .research-cites a {
+    font-size: 12px;
+  }
+}
+@media print {
+  .view-status {
+    display: none;
+  }
+  .contest {
+    display: block;
+    break-inside: auto;
+  }
+  .contest-heading {
+    margin-block: 12px;
+  }
+  .option-scroll {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow: visible;
+  }
+  .option-card {
+    break-inside: avoid;
+  }
+  .description,
+  .why,
+  .candidate-evidence p,
+  .candidate-background p {
+    font-size: 11px;
+  }
+  .candidate h4 {
+    font-size: 14px;
+  }
+  .slot,
+  .range,
+  .badge,
+  .source-links {
+    font-size: 10px;
+  }
+  .contest-overview {
+    padding: 12px;
+  }
+  .contest-overview p,
+  .issue-primer p {
+    font-size: 11px;
+  }
+  .issue-primer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .research-cites a {
+    font-size: 9px;
+  }
+  .dossier,
+  .candidate-background {
+    break-inside: auto;
+  }
+  details::details-content {
+    display: block;
+    content-visibility: visible;
+  }
+}
+
+.contest-overview h2 {
+  margin: 0 0 18px;
+  font-size: 27px;
 }
