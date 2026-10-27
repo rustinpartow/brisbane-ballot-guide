@@ -1575,3 +1575,37 @@ html {
   margin: 0 0 18px;
   font-size: 27px;
 }
+
+@media print {
+  .option-scroll {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mast {
+    padding: 12px 17px;
+    gap: 10px;
+  }
+  .mast .actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .header-research-link {
+    display: inline-flex;
+    align-items: center;
+  }
+  .actions .btn {
+    font-size: 11px;
+    padding: 8px;
+  }
+  .prob small,
+  .range,
+  .slot,
+  .badge {
+    font-size: 11px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
