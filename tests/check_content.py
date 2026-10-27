@@ -13,6 +13,9 @@ for row in data['rows']:
     assert row['options'] and 1 <= row['seats'] <= len(row['options'])
     if row['kind'] == 'race':
         assert sum(o['prob'] for o in row['options']) == 100 * row['seats'], f"Inconsistent inclusion probabilities: {row['id']}"
+    assert all(key in data['sources'] for key in row.get('contextSources', []))
+    if row.get('office'):
+        assert row['decision'] and row['contextSources']
     for key in row['sources']:
         assert key in data['sources'], f"Missing source: {key}"
     for option in row['options']:

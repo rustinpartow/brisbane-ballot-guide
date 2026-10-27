@@ -97,6 +97,7 @@
     if (query && !searchable.includes(query)) return false;
     if (
       view === "focus" &&
+      !query &&
       (r.group === "Judicial" ||
         (r.kind === "race" &&
           Math.max(...r.options.map((o) => o.prob || 0)) >= 95))
@@ -172,7 +173,7 @@
     }
     document.getElementById("count").textContent = DATA.rows.length;
     document.getElementById("shown-count").textContent =
-      `${shown} of ${DATA.rows.length} contests shown`;
+      `${shown} of ${DATA.rows.length} contests shown${query && view === "focus" ? " · search includes likely outcomes" : ""}`;
     document.getElementById("view").value = view;
     save();
   }
