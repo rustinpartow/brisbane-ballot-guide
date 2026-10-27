@@ -82,9 +82,9 @@
         },
         {
           "name": "Charles Spencer",
-          "description": "Business owner and former nonprofit CFO. Emphasizes fiscal oversight, transparency, city finances and data-center concerns.",
+          "description": "Business owner; describes himself as a former nonprofit CFO. Emphasizes fiscal oversight, transparency, city finances and data-center concerns.",
           "prob": 20,
-          "why": "Financial credentials and an active campaign establish a plausible challenger. The reviewed evidence does not establish an electoral advantage over Davis or Sims; this is a weak prior.",
+          "why": "Original 20% judgment estimate retained. The financial experience is self-reported, and this review did not independently verify the nonprofit CFO role. No polling or other reviewed electoral evidence establishes an advantage over Davis or Sims.",
           "range": [10, 50],
           "tag": "Challenger",
           "evidence": [
