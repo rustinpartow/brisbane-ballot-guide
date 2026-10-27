@@ -1,5 +1,6 @@
 """Validate research structure and publication boundaries without network access."""
 import json
+import re
 from pathlib import Path
 from html.parser import HTMLParser
 
@@ -32,7 +33,7 @@ class PublicationCheck(HTMLParser):
                 assert (ROOT / path).is_file(), path
 
 index = (ROOT / 'index.html').read_text()
-assert '<script id="saved-state" type="application/json">{}</script>' in index
+assert json.loads(re.search(r'<script id="saved-state" type="application/json">(.*?)</script>', index, re.S)[1]) == {}
 for file in ('index.html', 'content/research.html'):
     PublicationCheck().feed((ROOT / file).read_text())
 print(f"PASS: {len(ids)} contests, {sum(len(r['options']) for r in data['rows'])} options, {len(data['sources'])} shared sources; publication checks")

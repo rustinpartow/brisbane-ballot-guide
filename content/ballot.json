@@ -10,10 +10,7 @@
           "description": "Incumbent. Detailed platform covers downtown maintenance, vacant storefronts, childcare, fiscal repairs and data-center restrictions. Expanded record above.",
           "prob": 75,
           "why": "Incumbency and first-place finish in 2022 are the strongest verified electoral signals in this field. Five candidates compete for two seats, so she is favored rather than assured.",
-          "range": [
-            55,
-            90
-          ],
+          "range": [55, 90],
           "tag": "Incumbent"
         },
         {
@@ -21,10 +18,7 @@
           "description": "Parks & Recreation commissioner and business owner. Supports open-space protection, community programs and prohibiting large data centers.",
           "prob": 60,
           "why": "Five-plus years of commission service and campaign-listed backing from councilmembers Frank Kern and Coleen Mackin support an organization advantage among challengers.",
-          "range": [
-            35,
-            80
-          ],
+          "range": [35, 80],
           "tag": "Commissioner"
         },
         {
@@ -32,10 +26,7 @@
           "description": "Business leader. Supports Baylands and Quarry development with safeguards, downtown investment and recreation facilities.",
           "prob": 30,
           "why": "A development-focused platform establishes a serious candidacy. The expanded forum review adds accountability proposals, but supplies no new polling or vote-intention evidence; this remains a weak prior.",
-          "range": [
-            15,
-            60
-          ],
+          "range": [15, 60],
           "tag": "Challenger"
         },
         {
@@ -43,10 +34,7 @@
           "description": "Business owner and former nonprofit CFO. Emphasizes fiscal oversight, transparency, city finances and data-center concerns.",
           "prob": 20,
           "why": "Financial credentials and an active campaign establish a plausible challenger. The reviewed evidence does not establish an electoral advantage over Davis or Sims; this is a weak prior.",
-          "range": [
-            10,
-            50
-          ],
+          "range": [10, 50],
           "tag": "Challenger"
         },
         {
@@ -54,10 +42,7 @@
           "description": "Community volunteer and returning candidate. Her official statement emphasizes community service and youth participation.",
           "prob": 15,
           "why": "Finished fifth of five in the three-seat 2024 race with 615 candidate votes. That is a demonstrated base, but below the 995 votes of the last winner; the 2026 field is different.",
-          "range": [
-            5,
-            35
-          ],
+          "range": [5, 35],
           "tag": "Returning candidate"
         }
       ],
@@ -86,10 +71,7 @@
           "description": "South San Francisco vice mayor. Campaign emphasizes housing, childcare, public services and transportation.",
           "prob": 55,
           "why": "Campaign lists support from three sitting county supervisors and several unions and media organizations. This earns only a small edge against another established local officeholder.",
-          "range": [
-            35,
-            75
-          ],
+          "range": [35, 75],
           "tag": ""
         },
         {
@@ -97,21 +79,13 @@
           "description": "Daly City councilmember. Campaign emphasizes affordability, healthcare and working families.",
           "prob": 45,
           "why": "Strong elected-office record and a citywide Daly City base keep this close. She won 23,477 candidate votes in 2024; citywide and ward totals are not directly comparable.",
-          "range": [
-            25,
-            65
-          ],
+          "range": [25, 65],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Subjective 55–45 assessment from officeholding, prior results and campaign-reported endorsements. No district-wide poll or campaign-finance audit was available in this review.",
-      "sources": [
-        "roster",
-        "nagales",
-        "manalo",
-        "past24"
-      ],
+      "sources": ["roster", "nagales", "manalo", "past24"],
       "scope": "Brisbane",
       "confidence": "Very low",
       "kind": "race"
@@ -126,10 +100,7 @@
           "description": "Incumbent school board member.",
           "prob": 80,
           "why": "An incumbency-only prior favors existing officeholders. No candidate-specific polling or comparative performance evaluation was found.",
-          "range": [
-            55,
-            95
-          ],
+          "range": [55, 95],
           "tag": "Incumbent"
         },
         {
@@ -137,10 +108,7 @@
           "description": "Appointed incumbent school board member.",
           "prob": 80,
           "why": "Incumbency provides a modest name-recognition prior; appointment is not proof of electoral support.",
-          "range": [
-            55,
-            95
-          ],
+          "range": [55, 95],
           "tag": "Appointed incumbent"
         },
         {
@@ -148,10 +116,7 @@
           "description": "Ballot designation: retired federal employee.",
           "prob": 70,
           "why": "Three seats for four candidates creates a high baseline chance. With no better electoral data, this estimate gives newcomers equal strength.",
-          "range": [
-            40,
-            90
-          ],
+          "range": [40, 90],
           "tag": ""
         },
         {
@@ -159,18 +124,13 @@
           "description": "Ballot designation: parent / attorney.",
           "prob": 70,
           "why": "Same newcomer prior as Larson. This forecast does not evaluate qualifications or imply a preference between them.",
-          "range": [
-            40,
-            90
-          ],
+          "range": [40, 90],
           "tag": ""
         }
       ],
       "seats": 3,
       "method": "Three-seat Plackett–Luce prior: incumbent weights 1.4 each, newcomer weights 1 each. Inclusion probabilities 81/81/69/69, coarsened to 80/80/70/70. No polling; no school-policy recommendation.",
-      "sources": [
-        "roster"
-      ],
+      "sources": ["roster"],
       "scope": "Confirm school district",
       "confidence": "Very low",
       "kind": "race"
@@ -185,10 +145,7 @@
           "description": "Democrat; incumbent U.S. representative.",
           "prob": 99,
           "why": "Incumbency and a 73.55% district vote share in the 2024 certified county results support an overwhelming favorite assessment. No race-specific 2026 poll was reviewed.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": "D · incumbent"
         },
         {
@@ -196,19 +153,13 @@
           "description": "Republican; retired training supervisor.",
           "prob": 1,
           "why": "The recent district margin makes an upset unlikely under ordinary conditions. A small tail probability remains for unusual campaign or turnout changes.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": "R"
         }
       ],
       "seats": 1,
       "method": "Subjective partisan/incumbency prior using the certified 2024 contest result; not a market or a fitted forecast.",
-      "sources": [
-        "roster",
-        "past24"
-      ],
+      "sources": ["roster", "past24"],
       "scope": "Brisbane",
       "confidence": "Low",
       "kind": "race"
@@ -223,10 +174,7 @@
           "description": "Democrat; incumbent assemblymember.",
           "prob": 99,
           "why": "Won the 2024 contest with 73.83% in the certified county results. Incumbency and the district margin support a very strong favorite prior.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": "D · incumbent"
         },
         {
@@ -234,19 +182,13 @@
           "description": "Republican; enrolled agent / businessman.",
           "prob": 1,
           "why": "The recent district baseline is strongly unfavorable; no contrary 2026 district poll was reviewed.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": "R"
         }
       ],
       "seats": 1,
       "method": "Subjective prior based on the certified previous district result and incumbency.",
-      "sources": [
-        "roster",
-        "past24"
-      ],
+      "sources": ["roster", "past24"],
       "scope": "Brisbane",
       "confidence": "Low",
       "kind": "race"
@@ -261,10 +203,7 @@
           "description": "Democrat; ballot designation: voting rights attorney.",
           "prob": 98,
           "why": "Emerson’s Oct 17–19 survey found a 60–33 lead, or 64–36 including leaners. The estimate retains upset risk beyond sampling error and is deliberately below a literal single-poll normal calculation.",
-          "range": [
-            95,
-            99.5
-          ],
+          "range": [95, 99.5],
           "tag": "D"
         },
         {
@@ -272,20 +211,13 @@
           "description": "Republican; small-business owner and former commentator.",
           "prob": 2,
           "why": "A large current polling deficit makes him a clear underdog. This is an estimated upset probability, not his expected vote share.",
-          "range": [
-            0.5,
-            5
-          ],
+          "range": [0.5, 5],
           "tag": "R"
         }
       ],
       "seats": 1,
       "method": "Judgmental synthesis of the verified late-October Emerson poll and California’s partisan baseline. Not an Emerson-published win probability.",
-      "sources": [
-        "roster",
-        "govpoll",
-        "ca22"
-      ],
+      "sources": ["roster", "govpoll", "ca22"],
       "scope": "Brisbane",
       "confidence": "Moderate",
       "kind": "race"
@@ -300,10 +232,7 @@
           "description": "State treasurer / CPA.",
           "prob": 98,
           "why": "California’s recent statewide Democratic advantage supplies the main prior. Candidate and office-specific polling was not verified; this percentage is a judgment, not a measured race forecast.",
-          "range": [
-            93,
-            99.5
-          ],
+          "range": [93, 99.5],
           "tag": "D"
         },
         {
@@ -311,19 +240,13 @@
           "description": "Educator / businesswoman.",
           "prob": 2,
           "why": "A Republican upset is possible but runs against the statewide baseline. No race-specific 2026 poll was verified in this review.",
-          "range": [
-            0.5,
-            7
-          ],
+          "range": [0.5, 7],
           "tag": "R"
         }
       ],
       "seats": 1,
       "method": "Partisan baseline prior only. Controller is given a larger upset tail than the other statewide partisan contests. These estimates must not be mistaken for independent polling-based forecasts.",
-      "sources": [
-        "roster",
-        "ca22"
-      ],
+      "sources": ["roster", "ca22"],
       "scope": "Brisbane",
       "confidence": "Low",
       "kind": "race"
@@ -338,10 +261,7 @@
           "description": "Incumbent California secretary of state.",
           "prob": 98,
           "why": "California’s recent statewide Democratic advantage supplies the main prior. Candidate and office-specific polling was not verified; this percentage is a judgment, not a measured race forecast.",
-          "range": [
-            93,
-            99.5
-          ],
+          "range": [93, 99.5],
           "tag": "D"
         },
         {
@@ -349,19 +269,13 @@
           "description": "Orange County supervisor.",
           "prob": 2,
           "why": "A Republican upset is possible but runs against the statewide baseline. No race-specific 2026 poll was verified in this review.",
-          "range": [
-            0.5,
-            7
-          ],
+          "range": [0.5, 7],
           "tag": "R"
         }
       ],
       "seats": 1,
       "method": "Partisan baseline prior only. Controller is given a larger upset tail than the other statewide partisan contests. These estimates must not be mistaken for independent polling-based forecasts.",
-      "sources": [
-        "roster",
-        "ca22"
-      ],
+      "sources": ["roster", "ca22"],
       "scope": "Brisbane",
       "confidence": "Low",
       "kind": "race"
@@ -376,10 +290,7 @@
           "description": "Incumbent state controller.",
           "prob": 95,
           "why": "California’s recent statewide Democratic advantage supplies the main prior. Candidate and office-specific polling was not verified; this percentage is a judgment, not a measured race forecast.",
-          "range": [
-            90,
-            99.5
-          ],
+          "range": [90, 99.5],
           "tag": "D"
         },
         {
@@ -387,19 +298,13 @@
           "description": "Chief investment officer.",
           "prob": 5,
           "why": "A Republican upset is possible but runs against the statewide baseline. No race-specific 2026 poll was verified in this review.",
-          "range": [
-            0.5,
-            10
-          ],
+          "range": [0.5, 10],
           "tag": "R"
         }
       ],
       "seats": 1,
       "method": "Partisan baseline prior only. Controller is given a larger upset tail than the other statewide partisan contests. These estimates must not be mistaken for independent polling-based forecasts.",
-      "sources": [
-        "roster",
-        "ca22"
-      ],
+      "sources": ["roster", "ca22"],
       "scope": "Brisbane",
       "confidence": "Low",
       "kind": "race"
@@ -414,10 +319,7 @@
           "description": "Lieutenant governor of California.",
           "prob": 98,
           "why": "California’s recent statewide Democratic advantage supplies the main prior. Candidate and office-specific polling was not verified; this percentage is a judgment, not a measured race forecast.",
-          "range": [
-            93,
-            99.5
-          ],
+          "range": [93, 99.5],
           "tag": "D"
         },
         {
@@ -425,19 +327,13 @@
           "description": "Retired business executive.",
           "prob": 2,
           "why": "A Republican upset is possible but runs against the statewide baseline. No race-specific 2026 poll was verified in this review.",
-          "range": [
-            0.5,
-            7
-          ],
+          "range": [0.5, 7],
           "tag": "R"
         }
       ],
       "seats": 1,
       "method": "Partisan baseline prior only. Controller is given a larger upset tail than the other statewide partisan contests. These estimates must not be mistaken for independent polling-based forecasts.",
-      "sources": [
-        "roster",
-        "ca22"
-      ],
+      "sources": ["roster", "ca22"],
       "scope": "Brisbane",
       "confidence": "Low",
       "kind": "race"
@@ -452,10 +348,7 @@
           "description": "Incumbent California attorney general.",
           "prob": 98,
           "why": "California’s recent statewide Democratic advantage supplies the main prior. Candidate and office-specific polling was not verified; this percentage is a judgment, not a measured race forecast.",
-          "range": [
-            93,
-            99.5
-          ],
+          "range": [93, 99.5],
           "tag": "D"
         },
         {
@@ -463,19 +356,13 @@
           "description": "Deputy United States attorney.",
           "prob": 2,
           "why": "A Republican upset is possible but runs against the statewide baseline. No race-specific 2026 poll was verified in this review.",
-          "range": [
-            0.5,
-            7
-          ],
+          "range": [0.5, 7],
           "tag": "R"
         }
       ],
       "seats": 1,
       "method": "Partisan baseline prior only. Controller is given a larger upset tail than the other statewide partisan contests. These estimates must not be mistaken for independent polling-based forecasts.",
-      "sources": [
-        "roster",
-        "ca22"
-      ],
+      "sources": ["roster", "ca22"],
       "scope": "Brisbane",
       "confidence": "Low",
       "kind": "race"
@@ -490,10 +377,7 @@
           "description": "Democratic state senator.",
           "prob": 60,
           "why": "Probolsky’s Oct 26 release reports Allen 25%, Kim 21%, with 54% unsure. The small lead warrants a modest edge, heavily discounted for undecided voters and conflicting earlier signals.",
-          "range": [
-            40,
-            80
-          ],
+          "range": [40, 80],
           "tag": "D"
         },
         {
@@ -501,19 +385,13 @@
           "description": "Democratic attorney / consumer advocate; former SF supervisor.",
           "prob": 40,
           "why": "The same poll leaves most voters undecided, so this is still competitive. A four-point stated-preference deficit is not a 60–40 vote-share forecast.",
-          "range": [
-            20,
-            60
-          ],
+          "range": [20, 60],
           "tag": "D"
         }
       ],
       "seats": 1,
       "method": "Subjective 60–40 win forecast from the latest verified public poll; undecided voters and poll uncertainty dominate. No full multi-poll model was fitted.",
-      "sources": [
-        "roster",
-        "inspoll"
-      ],
+      "sources": ["roster", "inspoll"],
       "scope": "Brisbane",
       "confidence": "Low",
       "kind": "race"
@@ -528,10 +406,7 @@
           "description": "Democrat; incumbent board member.",
           "prob": 60,
           "why": "Incumbency provides a modest prior against another Democrat. No general-election poll, fundraising comparison or full district analysis was verified.",
-          "range": [
-            35,
-            80
-          ],
+          "range": [35, 80],
           "tag": "D · incumbent"
         },
         {
@@ -539,18 +414,13 @@
           "description": "Democrat; community-college district trustee.",
           "prob": 40,
           "why": "An established officeholder in a same-party contest can plausibly win. There is too little reviewed evidence to justify a strong favorite.",
-          "range": [
-            20,
-            65
-          ],
+          "range": [20, 65],
           "tag": "D"
         }
       ],
       "seats": 1,
       "method": "Incumbency-only judgment prior in a same-party race. Evidence is especially limited.",
-      "sources": [
-        "roster"
-      ],
+      "sources": ["roster"],
       "scope": "Brisbane",
       "confidence": "Very low",
       "kind": "race"
@@ -565,10 +435,7 @@
           "description": "Ballot designation: state superintendent advisor.",
           "prob": 90,
           "why": "A broad Democratic-aligned statewide prior favors Barrera, but this is a nonpartisan ballot and no current head-to-head poll was verified. Consequently the upset tail is larger.",
-          "range": [
-            70,
-            98
-          ],
+          "range": [70, 98],
           "tag": ""
         },
         {
@@ -576,19 +443,13 @@
           "description": "Ballot designation: school district president.",
           "prob": 10,
           "why": "A credible upset tail remains in a lower-information nonpartisan contest. This estimate is prior-driven, not measured voter support.",
-          "range": [
-            2,
-            30
-          ],
+          "range": [2, 30],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Low-confidence political-alignment prior, not a candidate-performance evaluation or a race-specific poll.",
-      "sources": [
-        "roster",
-        "ca22"
-      ],
+      "sources": ["roster", "ca22"],
       "scope": "Brisbane",
       "confidence": "Very low",
       "kind": "race"
@@ -603,10 +464,7 @@
       "confidence": "Official text",
       "method": "Estimated $1M additional annual general-fund revenue; removes specified exemptions including nonprofits and rentals under five units. Separate industry taxes remain.",
       "threshold": "Majority",
-      "sources": [
-        "city",
-        "county"
-      ],
+      "sources": ["city", "county"],
       "options": [
         {
           "name": "Yes",
@@ -636,9 +494,7 @@
       "confidence": "Official text",
       "method": "Applies to county elected offices other than supervisor. More time and an added public hearing change the appointment process.",
       "threshold": "Majority",
-      "sources": [
-        "county"
-      ],
+      "sources": ["county"],
       "options": [
         {
           "name": "Yes",
@@ -668,9 +524,7 @@
       "confidence": "Official text",
       "method": "A charter statement of priorities; the impartial analysis identifies no change to other charter provisions.",
       "threshold": "Majority",
-      "sources": [
-        "county"
-      ],
+      "sources": ["county"],
       "options": [
         {
           "name": "Yes",
@@ -700,9 +554,7 @@
       "confidence": "Official text",
       "method": "Changes control of redistricting; retains district elections and existing residency and term provisions.",
       "threshold": "Majority",
-      "sources": [
-        "county"
-      ],
+      "sources": ["county"],
       "options": [
         {
           "name": "Yes",
@@ -732,9 +584,7 @@
       "confidence": "Official text",
       "method": "A charter statement of principles; the impartial analysis identifies no change to other provisions.",
       "threshold": "Majority",
-      "sources": [
-        "county"
-      ],
+      "sources": ["county"],
       "options": [
         {
           "name": "Yes",
@@ -764,9 +614,7 @@
       "confidence": "Official text",
       "method": "Estimated $980M annually districtwide; tax is 1 percentage point in SF. Allocations vary by county. Includes efficiency reviews and oversight. Approval is districtwide.",
       "threshold": "Majority",
-      "sources": [
-        "county"
-      ],
+      "sources": ["county"],
       "options": [
         {
           "name": "Yes",
@@ -796,9 +644,7 @@
       "confidence": "Official text",
       "method": "Estimated $3.4M annually. Qualifying senior owner-occupants may receive an exemption; existing qualifying senior exemptions carry over.",
       "threshold": "Two-thirds",
-      "sources": [
-        "county"
-      ],
+      "sources": ["county"],
       "options": [
         {
           "name": "Yes",
@@ -828,9 +674,7 @@
       "confidence": "Official text",
       "method": "Estimated highest annual levy: $18 per $100,000 assessed value, not market value. Facilities funding with oversight and annual audits; estimated debt through June 2049.",
       "threshold": "55%",
-      "sources": [
-        "county"
-      ],
+      "sources": ["county"],
       "options": [
         {
           "name": "Yes",
@@ -860,9 +704,7 @@
       "confidence": "Official text",
       "method": "Estimated debt service: $500M–$600M annually for about 25 years.",
       "threshold": "Majority",
-      "sources": [
-        "prop1"
-      ],
+      "sources": ["prop1"],
       "options": [
         {
           "name": "Yes",
@@ -892,9 +734,7 @@
       "confidence": "Official text",
       "method": "Changes reserve capacity and extends required extra debt payments; also changes how reserves interact with the spending limit.",
       "threshold": "Majority",
-      "sources": [
-        "prop2"
-      ],
+      "sources": ["prop2"],
       "options": [
         {
           "name": "Yes",
@@ -924,9 +764,7 @@
       "confidence": "Official text",
       "method": "Official estimate: maintain $5B–$15B in annual state income-tax revenue. Not a new tax on all earners.",
       "threshold": "Majority",
-      "sources": [
-        "prop3"
-      ],
+      "sources": ["prop3"],
       "options": [
         {
           "name": "Yes",
@@ -956,9 +794,7 @@
       "confidence": "Official text",
       "method": "Permits programs rather than creating one universal program. Certain earmarked funds cannot be used.",
       "threshold": "Majority",
-      "sources": [
-        "prop4"
-      ],
+      "sources": ["prop4"],
       "options": [
         {
           "name": "Yes",
@@ -988,9 +824,7 @@
       "confidence": "Official text",
       "method": "Changes how a recalled officer is replaced. Net election costs depend on the particular recall.",
       "threshold": "Majority",
-      "sources": [
-        "prop5"
-      ],
+      "sources": ["prop5"],
       "options": [
         {
           "name": "Yes",
@@ -1020,9 +854,7 @@
       "confidence": "Official text",
       "method": "Eligible new homes and borrowers face price, income, occupancy and downpayment rules. Official summary estimates no direct state or local cost.",
       "threshold": "Majority",
-      "sources": [
-        "prop37"
-      ],
+      "sources": ["prop37"],
       "options": [
         {
           "name": "Yes",
@@ -1052,9 +884,7 @@
       "confidence": "Official text",
       "method": "Half goes to a specified UC-affiliated nonprofit institute. Estimated debt cost $500M–$600M annually for about 20 years, potentially offset by research revenue.",
       "threshold": "Majority",
-      "sources": [
-        "prop38"
-      ],
+      "sources": ["prop38"],
       "options": [
         {
           "name": "Yes",
@@ -1084,9 +914,7 @@
       "confidence": "Official text",
       "method": "Official annual implementation-cost estimate ranges from tens of millions to low hundreds of millions. Changes the requirements for a ballot to count.",
       "threshold": "Majority",
-      "sources": [
-        "prop39"
-      ],
+      "sources": ["prop39"],
       "options": [
         {
           "name": "Yes",
@@ -1116,9 +944,7 @@
       "confidence": "Official text",
       "method": "Official estimate: temporary revenue in the tens of billions; possible ongoing income-tax revenue reduction below $1B annually. Interacts with Props 41 and 42.",
       "threshold": "Majority",
-      "sources": [
-        "prop40"
-      ],
+      "sources": ["prop40"],
       "options": [
         {
           "name": "Yes",
@@ -1148,9 +974,7 @@
       "confidence": "Official text",
       "method": "Could nullify conflicting taxes enacted after Jan 1, 2026. Net fiscal effect depends on later decisions; read alongside Prop 40.",
       "threshold": "Majority",
-      "sources": [
-        "prop41"
-      ],
+      "sources": ["prop41"],
       "options": [
         {
           "name": "Yes",
@@ -1180,9 +1004,7 @@
       "confidence": "Official text",
       "method": "Could constrain future revenue and affect Prop 40. Personal property here includes financial assets and other non-real-estate property.",
       "threshold": "Majority",
-      "sources": [
-        "prop42"
-      ],
+      "sources": ["prop42"],
       "options": [
         {
           "name": "Yes",
@@ -1212,9 +1034,7 @@
       "confidence": "Official text",
       "method": "Changes which future local taxes can pass; official analysis says future local revenues might rise less.",
       "threshold": "Majority",
-      "sources": [
-        "prop43"
-      ],
+      "sources": ["prop43"],
       "options": [
         {
           "name": "Yes",
@@ -1244,9 +1064,7 @@
       "confidence": "Official text",
       "method": "Creates penalties and oversight; official state administration costs in the low tens of millions annually would be covered by fees.",
       "threshold": "Majority",
-      "sources": [
-        "prop44"
-      ],
+      "sources": ["prop44"],
       "options": [
         {
           "name": "Yes",
@@ -1276,9 +1094,7 @@
       "confidence": "Official text",
       "method": "Tightens deadlines and narrows court review. Initial public costs may exceed $100M annually, partly fee-funded; longer-term fiscal effects are uncertain.",
       "threshold": "Majority",
-      "sources": [
-        "prop45"
-      ],
+      "sources": ["prop45"],
       "options": [
         {
           "name": "Yes",
@@ -1308,10 +1124,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1319,19 +1132,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "judges",
-        "ca22"
-      ],
+      "sources": ["judges", "ca22"],
       "scope": "Supreme Court",
       "confidence": "Prior only",
       "kind": "race"
@@ -1346,10 +1153,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1357,19 +1161,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "judges",
-        "ca22"
-      ],
+      "sources": ["judges", "ca22"],
       "scope": "Supreme Court",
       "confidence": "Prior only",
       "kind": "race"
@@ -1384,10 +1182,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1395,19 +1190,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 1",
       "confidence": "Prior only",
       "kind": "race"
@@ -1422,10 +1211,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1433,19 +1219,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 1",
       "confidence": "Prior only",
       "kind": "race"
@@ -1460,10 +1240,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1471,19 +1248,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 1",
       "confidence": "Prior only",
       "kind": "race"
@@ -1498,10 +1269,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1509,19 +1277,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 2",
       "confidence": "Prior only",
       "kind": "race"
@@ -1536,10 +1298,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1547,19 +1306,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 2",
       "confidence": "Prior only",
       "kind": "race"
@@ -1574,10 +1327,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1585,19 +1335,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 3",
       "confidence": "Prior only",
       "kind": "race"
@@ -1612,10 +1356,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1623,19 +1364,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 3",
       "confidence": "Prior only",
       "kind": "race"
@@ -1650,10 +1385,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1661,19 +1393,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 4",
       "confidence": "Prior only",
       "kind": "race"
@@ -1688,10 +1414,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1699,19 +1422,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 5",
       "confidence": "Prior only",
       "kind": "race"
@@ -1726,10 +1443,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1737,19 +1451,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 5",
       "confidence": "Prior only",
       "kind": "race"
@@ -1764,10 +1472,7 @@
           "description": "Keep the justice in office.",
           "prob": 99,
           "why": "Generic California appellate-retention prior. This is not a justice-specific poll, a conduct review, or a recommendation.",
-          "range": [
-            95,
-            99.9
-          ],
+          "range": [95, 99.9],
           "tag": ""
         },
         {
@@ -1775,19 +1480,13 @@
           "description": "Reject retention; does not elect a named alternative.",
           "prob": 1,
           "why": "Generic removal tail under the same prior. A major organized opposition campaign, if present, would require revising this forecast.",
-          "range": [
-            0.1,
-            5
-          ],
+          "range": [0.1, 5],
           "tag": ""
         }
       ],
       "seats": 1,
       "method": "Same broad retention prior for every justice; individual opinions, conduct and organized opposition have not been comprehensively audited. Official list and qualifications linked.",
-      "sources": [
-        "appeal",
-        "ca22"
-      ],
+      "sources": ["appeal", "ca22"],
       "scope": "Appeal · Division 5",
       "confidence": "Prior only",
       "kind": "race"
@@ -1838,10 +1537,7 @@
       "Nagales · campaign and endorsements",
       "https://www.marknagales.com/"
     ],
-    "manalo": [
-      "Manalo · campaign",
-      "https://www.juslynmanalo.com/"
-    ],
+    "manalo": ["Manalo · campaign", "https://www.juslynmanalo.com/"],
     "judges": [
       "California · Supreme Court qualifications",
       "https://voterguide.sos.ca.gov/justices/supreme-court-justices/index.htm"
