@@ -1609,3 +1609,13 @@ html {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 600px) {
+  .dossier > summary .eyebrow,
+  .dossier-odds span,
+  .evidence-legend > span,
+  .evidence-record,
+  .evidence-pledge,
+  .evidence-gap {
+    font-size: 11px;
+  }
+}
