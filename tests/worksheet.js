@@ -25,8 +25,12 @@ async (page) => {
     "initial import",
   );
   await p.locator("#note-council").fill("Edited offline note");
+  while (await p.locator("#council .chosen .choose").count()) {
+    await p.locator("#council .chosen .choose").first().click();
+  }
   await p.locator("#council .choose").nth(2).click();
   const choices = await p.locator("#council .chosen").count();
+  check(choices === 1, "offline selection changed");
   await p.reload();
   await p.locator("#council").waitFor();
   check(
@@ -51,4 +55,4 @@ async (page) => {
   );
   await p.close();
   return "PASS offline initial import, edited notes and choices after reload, reset after reload";
-};
+}
