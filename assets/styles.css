@@ -1338,3 +1338,21 @@ footer {
     scroll-behavior: auto;
   }
 }
+
+/* Keep anchor targets and focused controls below the sticky desktop toolbar. */
+html {
+  scroll-padding-top: 140px;
+}
+.move button,
+.choose {
+  scroll-margin-block: 140px;
+}
+@media screen and (max-width: 600px) {
+  html {
+    scroll-padding-top: 16px;
+  }
+  .move button,
+  .choose {
+    scroll-margin-block: 16px;
+  }
+}

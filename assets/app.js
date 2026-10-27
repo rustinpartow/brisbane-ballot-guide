@@ -80,6 +80,21 @@
     return true;
   }
   function render() {
+    // Rendering replaces controls; keep keyboard focus and horizontal card positions.
+    const focused = document.activeElement;
+    let focusSelector;
+    if (focused.matches("[data-filter]")) {
+      focusSelector = `[data-filter="${CSS.escape(focused.dataset.filter)}"]`;
+    } else if (focused.matches("[data-action]")) {
+      const row = CSS.escape(focused.dataset.row);
+      focusSelector =
+        focused.dataset.action === "choose"
+          ? `[data-row="${row}"][data-option="${focused.dataset.option}"]`
+          : `[data-row="${row}"][aria-label="${CSS.escape(focused.getAttribute("aria-label"))}"]`;
+    }
+    const scrollPositions = [...document.querySelectorAll(".contest")].map(
+      (row) => [row.id, row.querySelector(".option-scroll").scrollLeft],
+    );
     document.getElementById("filters").innerHTML = groups
       .map(
         (g) =>
@@ -107,6 +122,21 @@
     }
     document.getElementById("guide").innerHTML =
       html || '<div class="empty">No contests match. Try another filter.</div>';
+    for (const [id, left] of scrollPositions) {
+      const scroller = document
+        .getElementById(id)
+        ?.querySelector(".option-scroll");
+      if (scroller) scroller.scrollLeft = left;
+    }
+    if (focusSelector) {
+      const next = document.querySelector(focusSelector);
+      if (next && !next.disabled) next.focus({ preventScroll: true });
+      else
+        next
+          ?.closest(".option-card")
+          ?.querySelector(".choose")
+          .focus({ preventScroll: true });
+    }
     document.getElementById("count").textContent = DATA.rows.length;
     save();
   }
