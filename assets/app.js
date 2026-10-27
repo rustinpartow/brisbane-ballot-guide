@@ -4,7 +4,7 @@
     document.getElementById("guide-data").textContent,
   );
   async function load(path, json = false) {
-    const response = await fetch(path);
+    const response = await fetch(path, { cache: "no-cache" });
     if (!response.ok)
       throw new Error(`Could not load ${path} (${response.status})`);
     return json ? response.json() : response.text();
@@ -13,15 +13,17 @@
   const research = document.getElementById("research-content");
   if (!research.innerHTML.trim())
     research.innerHTML = await load("content/research.html");
-  const KEY = "brisbane-ballot-2026-v1";
+  const savedState = document.getElementById("saved-state");
+  const KEY = savedState.dataset.storageKey || "brisbane-ballot-2026-v1";
   const embedded = JSON.parse(
     document.getElementById("saved-state").textContent || "{}",
   );
-  let state = {};
+  // Import an export once; subsequent local edits and resets take precedence.
+  let state = embedded;
   try {
-    state = JSON.parse(localStorage.getItem(KEY) || "{}");
+    const stored = localStorage.getItem(KEY);
+    if (stored !== null) state = JSON.parse(stored);
   } catch {}
-  if (Object.keys(embedded).length) state = embedded;
   let active = "All",
     query = "",
     view = "all";
@@ -221,6 +223,8 @@
         JSON.stringify(value).replace(/</g, "\\u003c");
       doc.querySelector("#guide-data").textContent = safeJSON(DATA);
       doc.querySelector("#saved-state").textContent = safeJSON(state);
+      doc.querySelector("#saved-state").dataset.storageKey =
+        `brisbane-export-${crypto.randomUUID()}`;
       const style = document.createElement("style");
       style.id = "offline-styles";
       style.textContent = styles;

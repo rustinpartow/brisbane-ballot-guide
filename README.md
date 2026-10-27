@@ -29,6 +29,8 @@ python3 tests/check_content.py
 node --check assets/app.js
 ```
 
+`tests/worksheet.js` is a Playwright CLI regression for keyboard focus and editable offline-copy persistence. In an isolated Playwright CLI session open the preview, then pass that file's contents to `run-code`. It writes synthetic browser-local worksheet data and downloads only to `/tmp`.
+
 Before publishing, check desktop and mobile, every filter, search, competitive/chosen views, choice limits, notes after reload, option ordering, reset, print, and a downloaded HTML file opened offline. Personal notes stay in the visitor's browser and are embedded only in their own downloaded copy. They are never committed or uploaded by the site. Browser storage is specific to the origin: localhost notes do not transfer automatically to GitHub Pages.
 
 ## Publish
